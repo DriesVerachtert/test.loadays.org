@@ -5,7 +5,6 @@ branches:
 install:
 - pip install pelican ghp-import
 script:
-- make clean
 - make publish
 - 'make github 2> /dev/null'
 env:
