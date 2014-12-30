@@ -9,4 +9,4 @@ script:
 - make github
 env:
   global:
-    secure: N3EqdHAlzBdqbdlrGZSDoPkp8dv41bJn0mszWMkH48CakBlLioKjmWYwqkaKZl+5ZxDXubGq7sBNDZA+kLaAQb0MMEUU+vAj/wmvZr0qzSICRnabQdu1EH8OOFFolRzejRbvGrVCEmoBrRyINMsx5ye3tv88Z2cuiPKovxFHcoY=
+    secure: WGqU3IU/gu3+u3A7rxALda2MKIhNpd2W44pPYptxnZxCd1AOdTRaYDe+13OsBRaCn43wRPUVHs4bglAOcC1TQBFL+eIgY9WKoK07c7viIkrMhkv/nu0WJagFG+PEj/Wv2nQC4rtzMg2QC2DqKOavxexn5LJqPidyZcWQ4KEaLeg=
