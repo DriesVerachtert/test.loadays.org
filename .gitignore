@@ -1,4 +1,4 @@
 *.pyc
-loadays.org
 *.eps
 *.pid
+.ropeproject
