@@ -6,7 +6,7 @@ install:
 - pip install pelican ghp-import
 script:
 - make publish
-- 'make github 2> /dev/null'
+- make github 2> /dev/null
 env:
   global:
     secure: "pXR+hcSKq3M07Bb7nAdsF3ls/waQSiYtBbi0E0j/MzRoP6CBefPVZAai00mM/5IOISOAQFUOtWLXWdfOBpE1AuwzEgijT+BJqFaL8ch6aftPUTDyc+ETlZfQK7Zvo+GGqAjN2IgFaWGmcW7++S+g/6lVbLfZ+SIEa1i/drAkP0o="
