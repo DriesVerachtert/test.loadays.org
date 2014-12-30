@@ -3,30 +3,30 @@
 
 AUTHOR = u"Loadays Crew"
 SITENAME = u"LOADays"
-#SITEURL = 'http://www.loadays.org'
+SITEURL = 'http://www.loadays.org'
 TIMEZONE = 'Europe/Brussels'
 DEFAULT_LANG = 'en'
 
 FEED_RSS = 'feeds/rss.xml'
 FEED_ALL_RSS = 'feeds/all.rss.xml'
 
-MD_EXTENSIONS = [ 'codehilite' , 'extra' , 'toc' , 'fenced_code' , 'footnotes' ]
-MARKUP = [ 'md' , 'rst' , 'html' ]
+MD_EXTENSIONS = ['codehilite', 'extra', 'toc', 'fenced_code', 'footnotes']
+MARKUP = ['md', 'rst', 'html']
 
 # Blogroll
-#LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
+# LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
 #          ('Python.org', 'http://python.org'),
 #          ('Jinja2', 'http://jinja.pocoo.org'),
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
+# SOCIAL = (('You can add links in your config file', '#'),
 #          ('Another social link', '#'),)
 #          <a href="https://plus.google.com/115345896801995085563" rel="publisher">Google+</a>.
-#ARTICLE_URL = '{slug}'
-#DEFAULT_CATEGORY = ''
+# ARTICLE_URL = '{slug}'
+# DEFAULT_CATEGORY = ''
 
-#THEME = 'loadays'
+# THEME = 'loadays'
 THEME = 'content/theme/loadays'
 
 OUTPUT_PATH = "output/"
@@ -35,12 +35,12 @@ DELETE_OUTPUT_DIRECTORY = False
 PATH = ('content/')
 PAGE_PATHS = ['pages/']
 ARTICLE_PATHS = ['posts/']
-#CATEGORY_URL = ('category/{slug}.html')
+# CATEGORY_URL = ('category/{slug}.html')
 MENUITEMS = (('Home', 'http://loadays.org'),)
 DISPLAY_PAGES_ON_MENU = True
 DEFAULT_PAGINATION = False
-#FILES_TO_COPY = (('CNAME', 'CNAME'),)
-STATIC_PATHS = ["archives", "images" , "slides", "CNAME" ]
+# FILES_TO_COPY = (('CNAME', 'CNAME'),)
+STATIC_PATHS = ["archives", "images", "slides", "CNAME"]
 
 # Sponsor section
 SPONSORGOLD =   (
@@ -75,11 +75,11 @@ SPONSORBRONZE = (
  #         )
 
 # Social connections
-#GITHUB_URL = 'https://github.com/loadays/pelican-site/'
-#GITHUB_POSITION = 'left'
+# GITHUB_URL = 'https://github.com/loadays/pelican-site/'
+# GITHUB_POSITION = 'left'
 
 # Plugins
-#PLUGINS = [ 'pelican.plugins.sitemap',
+# PLUGINS = [ 'pelican.plugins.sitemap',
 #            'pelican.plugins.gzip_cache',
 #            'pelican.plugins.multi_part'
 #          ]
@@ -102,4 +102,4 @@ SITEMAP = {
 # Metadata
 META_DESCRIPTION = 'LOADays - Linux Open Administration Days - 6/4/2013 & 7/4/2013'
 META_KEYWORDS = 'loadays,load days,load,conference,antwerp,linux,open source'
-DEFAULT_METADATA = ( ('loadays','load days'),('load','load'),)
+DEFAULT_METADATA = ( ('loadays', 'load days'),('load', 'load'), )
