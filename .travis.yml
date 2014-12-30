@@ -5,7 +5,7 @@ branches:
 install:
 - git config --global user.email "vincent@vanderkussen.org"
 - git config --global user.name "vincentvdk"
-- pip install pelican ghp-import
+- pip install pelican ghp-import Markdown
 script:
     #- make html
 - make publish github
