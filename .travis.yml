@@ -6,6 +6,7 @@ install:
 - git config --global user.email "vincent@vanderkussen.org"
 - git config --global user.name "vincentvdk"
 - pip install pelican ghp-import
+- mkdir output
 script:
 - make html
 - make github
