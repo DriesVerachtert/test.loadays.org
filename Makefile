@@ -72,6 +72,6 @@ ftp_upload: publish
 github: publish
 	ghp-import $(OUTPUTDIR)
 	#git push origin gh-pages
-	git push https://${GH_TOKEN}@github.com/loadays/test.loadays.org.git gh-pages
+	git push -fq https://${GH_TOKEN}@github.com/loadays/test.loadays.org.git gh-pages
 
 .PHONY: html help clean regenerate serve devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload github
