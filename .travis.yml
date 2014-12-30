@@ -3,10 +3,12 @@ branches:
   only:
   - master
 install:
+- git config --global user.email "vincent@vanderkussen.org"
+- git config --global user.name "vincentvdk"
 - pip install pelican ghp-import
 script:
 - make publish
 - make github
 env:
   global:
-    secure: WGqU3IU/gu3+u3A7rxALda2MKIhNpd2W44pPYptxnZxCd1AOdTRaYDe+13OsBRaCn43wRPUVHs4bglAOcC1TQBFL+eIgY9WKoK07c7viIkrMhkv/nu0WJagFG+PEj/Wv2nQC4rtzMg2QC2DqKOavxexn5LJqPidyZcWQ4KEaLeg=
+    secure: SZHd+AhGdJ2Q24XynCO4jSI/3V0s2rsjaoKRwF9xrfMqmyywJFjAkSdw48zQmcPncfArvtamivBeceS9mvKrKwTElO7ZG1FyO0whpL5oeujF/kFtbCUPhy+s6ZINd8HyXEv6JRXhlMGMMUYni1u4iTub6pRU9Z6XmkyIysW7ZQU=
