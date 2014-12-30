@@ -7,7 +7,7 @@ install:
 - git config --global user.name "vincentvdk"
 - pip install pelican ghp-import
 script:
-- make publish
+    #- make publish
 - make github
 env:
   global:

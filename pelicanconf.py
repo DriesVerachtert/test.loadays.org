@@ -33,8 +33,8 @@ OUTPUT_PATH = "output/"
 DELETE_OUTPUT_DIRECTORY = False
 
 PATH= ('content/')
-PAGE_DIR = ('pages/')
-ARTICLE_DIR = ('posts/')
+PAGE_PATHS = ('pages/')
+ARTICLE_PATHS = ('posts/')
 #CATEGORY_URL = ('category/{slug}.html')
 MENUITEMS = (('Home', 'http://loadays.org'),)
 DISPLAY_PAGES_ON_MENU = True
