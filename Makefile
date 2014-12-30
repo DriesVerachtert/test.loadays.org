@@ -72,7 +72,7 @@ ftp_upload: publish
 github: publish
 	ghp-import $(OUTPUTDIR)
 	#git push origin gh-pages
-	if [[ -z "${GH_TOKEN}" ]]; then
+	if [[ -z "$GH_TOKEN" ]]; then
 	  echo -e "GH_TOKEN is not set"
 	  exit 1
 	fi
