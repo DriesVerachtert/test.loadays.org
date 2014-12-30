@@ -9,5 +9,4 @@ script:
 - make github
 env:
   global:
-    secure: "Z2PwTH35xay8gGkvKamcF/Gv7g83aJqysu7Zoo0cD+5mXXhZRFulnzZzd/ufLxfY7boUyhJbifmu31OQZ7O4d2PnA9AOg8/RAL3a12uy3Gy+LrKEGKcucqP4gr8XVcYguWbZxI1neE/a4QGns7kLnvHEelEMQXfM5d6Cyw0mXT8="
-#after_success: bash deploy.sh
+    secure: N3EqdHAlzBdqbdlrGZSDoPkp8dv41bJn0mszWMkH48CakBlLioKjmWYwqkaKZl+5ZxDXubGq7sBNDZA+kLaAQb0MMEUU+vAj/wmvZr0qzSICRnabQdu1EH8OOFFolRzejRbvGrVCEmoBrRyINMsx5ye3tv88Z2cuiPKovxFHcoY=
