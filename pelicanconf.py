@@ -32,9 +32,9 @@ THEME = 'content/theme/loadays'
 OUTPUT_PATH = "output/"
 DELETE_OUTPUT_DIRECTORY = False
 
-PATH= ('content/')
-PAGE_PATHS = ('pages/')
-ARTICLE_PATHS = ('posts/')
+PATH = ('content/')
+PAGE_PATHS = ['pages/']
+ARTICLE_PATHS = ['posts/']
 #CATEGORY_URL = ('category/{slug}.html')
 MENUITEMS = (('Home', 'http://loadays.org'),)
 DISPLAY_PAGES_ON_MENU = True
